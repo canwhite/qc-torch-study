@@ -1,11 +1,9 @@
+#### PyTorch 学习笔记
+
+- [PyTorch 核心概念与组成](docs/pytorch-overview.md) — 张量、自动微分、神经网络模块、优化器、数据加载、模型部署
+
 #### how to use
 
 1. clone this repo
-2. pip install poetry
-3. poetry install
-4. poetry shell
-5. poetry run python init/xxx.py
-
-#### PS
-
-[torch](https://pytorch.panchuang.net/SecondSection/what_is_pytorch/)
+2. uv sync
+3. uv run python init/xxx.py
