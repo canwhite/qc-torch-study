@@ -141,6 +141,7 @@ for batch in loader:
 ```python
 # 脚本化
 scripted_model = torch.jit.script(model)
+# 再存储
 scripted_model.save('model.pt')
 
 # 加载
